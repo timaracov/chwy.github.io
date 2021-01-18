@@ -97,38 +97,18 @@ section {
 }
 
 .notes h1 {
-	font-family: "Space Mono";
+	font-family: "Monospace";
 	font-weight: 600;
 	font-size: 26px;
 }
 .notes li {
-	font-family: "Space Mono";
+	font-family: "Monospace";
 	font-size: 18px;	
 }
 
-.calcs {
-	margin: 10;
-	background-color: #eeaa00;
-	border-radius: 12px;
-	display: flex;
-	justify-content: center;
-}
-
-.permissions {
-	background-color: yellow;
-	margin: 10;
-	width: 30%;
-	height: 300px;
-}
-
-.pasgen {
-	background-color: red;
-	margin: 10;
-	width: 30%;
-	height: 300px;
-}	
 
 .logo-block {
+	margin-top: 200px;
 	display: flex;
 	justify-content: center;
 }
@@ -136,4 +116,10 @@ section {
 .logo-block a {
 	padding: 0 6 0 6;
 }
-
+ .quote {
+ 	margin-top: 30px;
+ 	font-family: "Monospace";
+ 	border-color: black;
+ 	display: flex;
+ 	justify-content: left;
+ }
